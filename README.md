@@ -49,7 +49,6 @@ Testing: Write tests to ensure the browser automation works as expected.
 
 Documentation: Document the code and provide instructions on how to set up and use the chatbot.
 
-Before proceeding with the implementation, we need to confirm with the user whether API access can be enabled or if we should proceed with browser automation. Additionally, we need to choose the appropriate libraries for HTTP requests (if using API) or browser automation (if no API access), and for creating the chatbot interface.
 
 Given that API access cannot be enabled on Smartsheets, we will proceed with the browser automation scenario. Here are the steps we will take to implement the solution:
 
