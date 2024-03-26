@@ -1,0 +1,13 @@
+{
+  "name": "smartsheets-interact",
+  "version": "1.0.0",
+  "description": "A chatbot interface to interact with Smartsheets without API access.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^1.0.0",
+    "puppeteer": "^10.0.0"
+  }
+}
