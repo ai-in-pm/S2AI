@@ -1,4 +1,4 @@
-# SmartsheetsAI
+# S2AI
 Interact with Smartsheets using ChatGPT.
 
 To create a code that allows interaction between a chatbot and a user with Smartsheets, we need to consider that the user has a Pro Plan for Smartsheets but no API access. Since we cannot use the Smartsheets API directly, we will need to find an alternative way to interact with Smartsheets. One possible solution is to use the Smartsheets web interface and simulate user actions through a browser automation tool.
