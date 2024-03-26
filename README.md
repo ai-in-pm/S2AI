@@ -51,15 +51,14 @@ Documentation: Document the code and provide instructions on how to set up and u
 
 Before proceeding with the implementation, we need to confirm with the user whether API access can be enabled or if we should proceed with browser automation. Additionally, we need to choose the appropriate libraries for HTTP requests (if using API) or browser automation (if no API access), and for creating the chatbot interface.
 
-User, could you please confirm if API access can be enabled for Smartsheets, or should we proceed with browser automation? Also, please let us know if you have any preferences for the libraries or tools to be used for HTTP requests, browser automation, and chatbot creation.
-
 Given that API access cannot be enabled on Smartsheets, we will proceed with the browser automation scenario. Here are the steps we will take to implement the solution:
 
-Set up a browser automation library suitable for interacting with the Smartsheets web interface.
-Create a class to handle the chatbot interface, which will include methods for receiving and sending messages, as well as processing user commands.
-Create a class for Smartsheets web interaction that will handle login, navigation, reading, writing, creating, and deleting sheets through browser automation.
-Implement the main flow of the application to initialize the chatbot and handle user interactions.
-Add error handling to manage browser automation errors, user input errors, and other exceptions.
-Write tests to ensure the browser automation and chatbot interaction work as expected.
-Document the code and provide instructions on how to set up and use the chatbot.
+1. Set up a browser automation library suitable for interacting with the Smartsheets web interface.
+2. Create a class to handle the chatbot interface, which will include methods for receiving and sending messages, as well as processing user commands.
+3. Create a class for Smartsheets web interaction that will handle login, navigation, reading, writing, creating, and deleting sheets through browser automation.
+4. Implement the main flow of the application to initialize the chatbot and handle user interactions.
+5. Add error handling to manage browser automation errors, user input errors, and other exceptions.
+6. Write tests to ensure the browser automation and chatbot interaction work as expected.
+7. Document the code and provide instructions on how to set up and use the chatbot.
+
 Let's begin by setting up the browser automation library. We will choose a library that is compatible with the current environment and can simulate user actions on a web page. Once the library is set up, we will proceed with creating the necessary classes and methods for the chatbot and Smartsheets web interaction.
